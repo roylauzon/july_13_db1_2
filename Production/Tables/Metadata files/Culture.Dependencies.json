@@ -1,6 +1,11 @@
 [
   {
     "schema": "Production",
+    "name": "Culture",
+    "type": "Table"
+  },
+  {
+    "schema": "Production",
     "name": "Production",
     "type": "Schema"
   }

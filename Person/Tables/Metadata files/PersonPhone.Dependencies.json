@@ -3,5 +3,10 @@
     "schema": "Person",
     "name": "Person",
     "type": "Schema"
+  },
+  {
+    "schema": "Person",
+    "name": "PersonPhone",
+    "type": "Table"
   }
 ]

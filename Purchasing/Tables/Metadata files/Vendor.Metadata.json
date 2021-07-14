@@ -179,7 +179,7 @@
       "is_dts_replicated": false,
       "is_xml_document": false,
       "xml_collection_id": 0,
-      "default_object_id": 0,
+      "default_object_id": 1278627598,
       "rule_object_id": 0,
       "is_sparse": false,
       "is_column_set": false,
@@ -218,7 +218,7 @@
       "is_dts_replicated": false,
       "is_xml_document": false,
       "xml_collection_id": 0,
-      "default_object_id": 0,
+      "default_object_id": 1294627655,
       "rule_object_id": 0,
       "is_sparse": false,
       "is_column_set": false,
@@ -296,7 +296,7 @@
       "is_dts_replicated": false,
       "is_xml_document": false,
       "xml_collection_id": 0,
-      "default_object_id": 0,
+      "default_object_id": 1310627712,
       "rule_object_id": 0,
       "is_sparse": false,
       "is_column_set": false,
@@ -314,6 +314,30 @@
     }
   ],
   "Foreign keys": [],
-  "Check constraints": [],
+  "Check constraints": [
+    {
+      "schem": "Purchasing",
+      "obj": "Vendor",
+      "type": "Table",
+      "name": "CK_Vendor_CreditRating",
+      "object_id": 279672044,
+      "principal_id": null,
+      "schema_id": 8,
+      "parent_object_id": 738101670,
+      "type_desc": "CHECK_CONSTRAINT",
+      "create_date": "2021-07-14T15:15:05.293",
+      "modify_date": "2021-07-14T15:15:05.3",
+      "is_ms_shipped": false,
+      "is_published": false,
+      "is_schema_published": false,
+      "is_disabled": false,
+      "is_not_for_replication": false,
+      "is_not_trusted": false,
+      "parent_column_id": 4,
+      "definition": "([CreditRating]>=(1) AND [CreditRating]<=(5))",
+      "uses_database_collation": true,
+      "is_system_named": false
+    }
+  ],
   "Triggers": []
 }

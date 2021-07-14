@@ -218,7 +218,7 @@
       "is_dts_replicated": false,
       "is_xml_document": false,
       "xml_collection_id": 0,
-      "default_object_id": 0,
+      "default_object_id": 2002106173,
       "rule_object_id": 0,
       "is_sparse": false,
       "is_column_set": false,
@@ -236,6 +236,30 @@
     }
   ],
   "Foreign keys": [],
-  "Check constraints": [],
+  "Check constraints": [
+    {
+      "schem": "HumanResources",
+      "obj": "EmployeeDepartmentHistory",
+      "type": "Table",
+      "name": "CK_EmployeeDepartmentHistory_EndDate",
+      "object_id": 1531152500,
+      "principal_id": null,
+      "schema_id": 5,
+      "parent_object_id": 2099048,
+      "type_desc": "CHECK_CONSTRAINT",
+      "create_date": "2021-07-14T15:15:04.167",
+      "modify_date": "2021-07-14T15:15:04.173",
+      "is_ms_shipped": false,
+      "is_published": false,
+      "is_schema_published": false,
+      "is_disabled": false,
+      "is_not_for_replication": false,
+      "is_not_trusted": false,
+      "parent_column_id": 0,
+      "definition": "([EndDate]>=[StartDate] OR [EndDate] IS NULL)",
+      "uses_database_collation": true,
+      "is_system_named": false
+    }
+  ],
   "Triggers": []
 }

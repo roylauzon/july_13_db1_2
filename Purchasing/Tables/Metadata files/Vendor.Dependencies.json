@@ -3,5 +3,10 @@
     "schema": "Purchasing",
     "name": "Purchasing",
     "type": "Schema"
+  },
+  {
+    "schema": "Purchasing",
+    "name": "Vendor",
+    "type": "Table"
   }
 ]

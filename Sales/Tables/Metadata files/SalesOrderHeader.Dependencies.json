@@ -3,5 +3,10 @@
     "schema": "Sales",
     "name": "Sales",
     "type": "Schema"
+  },
+  {
+    "schema": "Sales",
+    "name": "SalesOrderHeader",
+    "type": "Table"
   }
 ]

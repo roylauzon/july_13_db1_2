@@ -1,6 +1,11 @@
 [
   {
     "schema": "Sales",
+    "name": "Currency",
+    "type": "Table"
+  },
+  {
+    "schema": "Sales",
     "name": "Sales",
     "type": "Schema"
   }

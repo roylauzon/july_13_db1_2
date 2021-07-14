@@ -140,7 +140,7 @@
       "is_dts_replicated": false,
       "is_xml_document": false,
       "xml_collection_id": 0,
-      "default_object_id": 0,
+      "default_object_id": 926626344,
       "rule_object_id": 0,
       "is_sparse": false,
       "is_column_set": false,
@@ -179,7 +179,7 @@
       "is_dts_replicated": false,
       "is_xml_document": false,
       "xml_collection_id": 0,
-      "default_object_id": 0,
+      "default_object_id": 942626401,
       "rule_object_id": 0,
       "is_sparse": false,
       "is_column_set": false,
@@ -335,7 +335,7 @@
       "is_dts_replicated": false,
       "is_xml_document": false,
       "xml_collection_id": 0,
-      "default_object_id": 0,
+      "default_object_id": 958626458,
       "rule_object_id": 0,
       "is_sparse": false,
       "is_column_set": false,
@@ -353,6 +353,30 @@
     }
   ],
   "Foreign keys": [],
-  "Check constraints": [],
+  "Check constraints": [
+    {
+      "schem": "Production",
+      "obj": "TransactionHistory",
+      "type": "Table",
+      "name": "CK_TransactionHistory_TransactionType",
+      "object_id": 1995154153,
+      "principal_id": null,
+      "schema_id": 7,
+      "parent_object_id": 594101157,
+      "type_desc": "CHECK_CONSTRAINT",
+      "create_date": "2021-07-14T15:15:04.64",
+      "modify_date": "2021-07-14T15:15:04.7",
+      "is_ms_shipped": false,
+      "is_published": false,
+      "is_schema_published": false,
+      "is_disabled": false,
+      "is_not_for_replication": false,
+      "is_not_trusted": false,
+      "parent_column_id": 6,
+      "definition": "(upper([TransactionType])='P' OR upper([TransactionType])='S' OR upper([TransactionType])='W')",
+      "uses_database_collation": true,
+      "is_system_named": false
+    }
+  ],
   "Triggers": []
 }

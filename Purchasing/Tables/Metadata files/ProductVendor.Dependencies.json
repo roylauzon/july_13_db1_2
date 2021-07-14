@@ -1,6 +1,11 @@
 [
   {
     "schema": "Purchasing",
+    "name": "ProductVendor",
+    "type": "Table"
+  },
+  {
+    "schema": "Purchasing",
     "name": "Purchasing",
     "type": "Schema"
   }

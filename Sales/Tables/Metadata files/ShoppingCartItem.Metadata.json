@@ -101,7 +101,7 @@
       "is_dts_replicated": false,
       "is_xml_document": false,
       "xml_collection_id": 0,
-      "default_object_id": 0,
+      "default_object_id": 1966630049,
       "rule_object_id": 0,
       "is_sparse": false,
       "is_column_set": false,
@@ -179,7 +179,7 @@
       "is_dts_replicated": false,
       "is_xml_document": false,
       "xml_collection_id": 0,
-      "default_object_id": 0,
+      "default_object_id": 1982630106,
       "rule_object_id": 0,
       "is_sparse": false,
       "is_column_set": false,
@@ -218,7 +218,7 @@
       "is_dts_replicated": false,
       "is_xml_document": false,
       "xml_collection_id": 0,
-      "default_object_id": 0,
+      "default_object_id": 1998630163,
       "rule_object_id": 0,
       "is_sparse": false,
       "is_column_set": false,
@@ -236,6 +236,30 @@
     }
   ],
   "Foreign keys": [],
-  "Check constraints": [],
+  "Check constraints": [
+    {
+      "schem": "Sales",
+      "obj": "ShoppingCartItem",
+      "type": "Table",
+      "name": "CK_ShoppingCartItem_Quantity",
+      "object_id": 631673298,
+      "principal_id": null,
+      "schema_id": 9,
+      "parent_object_id": 994102582,
+      "type_desc": "CHECK_CONSTRAINT",
+      "create_date": "2021-07-14T15:15:05.777",
+      "modify_date": "2021-07-14T15:15:05.787",
+      "is_ms_shipped": false,
+      "is_published": false,
+      "is_schema_published": false,
+      "is_disabled": false,
+      "is_not_for_replication": false,
+      "is_not_trusted": false,
+      "parent_column_id": 3,
+      "definition": "([Quantity]>=(1))",
+      "uses_database_collation": true,
+      "is_system_named": false
+    }
+  ],
   "Triggers": []
 }

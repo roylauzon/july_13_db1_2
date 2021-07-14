@@ -1,6 +1,11 @@
 [
   {
     "schema": "Person",
+    "name": "CountryRegion",
+    "type": "Table"
+  },
+  {
+    "schema": "Person",
     "name": "Person",
     "type": "Schema"
   }

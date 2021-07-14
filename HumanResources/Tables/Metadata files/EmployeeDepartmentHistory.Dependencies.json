@@ -1,6 +1,11 @@
 [
   {
     "schema": "HumanResources",
+    "name": "EmployeeDepartmentHistory",
+    "type": "Table"
+  },
+  {
+    "schema": "HumanResources",
     "name": "HumanResources",
     "type": "Schema"
   }

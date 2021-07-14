@@ -1,6 +1,11 @@
 [
   {
     "schema": "Person",
+    "name": "AddressType",
+    "type": "Table"
+  },
+  {
+    "schema": "Person",
     "name": "Person",
     "type": "Schema"
   }

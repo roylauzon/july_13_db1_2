@@ -140,7 +140,7 @@
       "is_dts_replicated": false,
       "is_xml_document": false,
       "xml_collection_id": 0,
-      "default_object_id": 0,
+      "default_object_id": 846626059,
       "rule_object_id": 0,
       "is_sparse": false,
       "is_column_set": false,
@@ -296,7 +296,7 @@
       "is_dts_replicated": false,
       "is_xml_document": false,
       "xml_collection_id": 0,
-      "default_object_id": 0,
+      "default_object_id": 862626116,
       "rule_object_id": 0,
       "is_sparse": false,
       "is_column_set": false,
@@ -314,6 +314,30 @@
     }
   ],
   "Foreign keys": [],
-  "Check constraints": [],
+  "Check constraints": [
+    {
+      "schem": "Production",
+      "obj": "ProductReview",
+      "type": "Table",
+      "name": "CK_ProductReview_Rating",
+      "object_id": 1979154096,
+      "principal_id": null,
+      "schema_id": 7,
+      "parent_object_id": 546100986,
+      "type_desc": "CHECK_CONSTRAINT",
+      "create_date": "2021-07-14T15:15:04.627",
+      "modify_date": "2021-07-14T15:15:04.633",
+      "is_ms_shipped": false,
+      "is_published": false,
+      "is_schema_published": false,
+      "is_disabled": false,
+      "is_not_for_replication": false,
+      "is_not_trusted": false,
+      "parent_column_id": 6,
+      "definition": "([Rating]>=(1) AND [Rating]<=(5))",
+      "uses_database_collation": true,
+      "is_system_named": false
+    }
+  ],
   "Triggers": []
 }

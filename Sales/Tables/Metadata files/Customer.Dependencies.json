@@ -1,6 +1,11 @@
 [
   {
     "schema": "Sales",
+    "name": "Customer",
+    "type": "Table"
+  },
+  {
+    "schema": "Sales",
     "name": "Sales",
     "type": "Schema"
   }

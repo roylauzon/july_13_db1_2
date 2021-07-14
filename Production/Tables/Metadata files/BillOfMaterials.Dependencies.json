@@ -1,6 +1,11 @@
 [
   {
     "schema": "Production",
+    "name": "BillOfMaterials",
+    "type": "Table"
+  },
+  {
+    "schema": "Production",
     "name": "Production",
     "type": "Schema"
   }

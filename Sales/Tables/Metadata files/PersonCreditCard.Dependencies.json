@@ -1,6 +1,11 @@
 [
   {
     "schema": "Sales",
+    "name": "PersonCreditCard",
+    "type": "Table"
+  },
+  {
+    "schema": "Sales",
     "name": "Sales",
     "type": "Schema"
   }

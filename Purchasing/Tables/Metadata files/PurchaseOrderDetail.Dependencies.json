@@ -1,6 +1,11 @@
 [
   {
     "schema": "Purchasing",
+    "name": "PurchaseOrderDetail",
+    "type": "Table"
+  },
+  {
+    "schema": "Purchasing",
     "name": "Purchasing",
     "type": "Schema"
   }

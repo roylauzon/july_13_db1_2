@@ -140,7 +140,7 @@
       "is_dts_replicated": false,
       "is_xml_document": false,
       "xml_collection_id": 0,
-      "default_object_id": 0,
+      "default_object_id": 1742629251,
       "rule_object_id": 0,
       "is_sparse": false,
       "is_column_set": false,
@@ -179,7 +179,7 @@
       "is_dts_replicated": false,
       "is_xml_document": false,
       "xml_collection_id": 0,
-      "default_object_id": 0,
+      "default_object_id": 1758629308,
       "rule_object_id": 0,
       "is_sparse": false,
       "is_column_set": false,
@@ -197,6 +197,30 @@
     }
   ],
   "Foreign keys": [],
-  "Check constraints": [],
+  "Check constraints": [
+    {
+      "schem": "Sales",
+      "obj": "SalesPersonQuotaHistory",
+      "type": "Table",
+      "name": "CK_SalesPersonQuotaHistory_SalesQuota",
+      "object_id": 519672899,
+      "principal_id": null,
+      "schema_id": 9,
+      "parent_object_id": 914102297,
+      "type_desc": "CHECK_CONSTRAINT",
+      "create_date": "2021-07-14T15:15:05.677",
+      "modify_date": "2021-07-14T15:15:05.683",
+      "is_ms_shipped": false,
+      "is_published": false,
+      "is_schema_published": false,
+      "is_disabled": false,
+      "is_not_for_replication": false,
+      "is_not_trusted": false,
+      "parent_column_id": 3,
+      "definition": "([SalesQuota]>(0.00))",
+      "uses_database_collation": true,
+      "is_system_named": false
+    }
+  ],
   "Triggers": []
 }

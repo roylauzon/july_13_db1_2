@@ -1,6 +1,11 @@
 [
   {
     "schema": "Sales",
+    "name": "CountryRegionCurrency",
+    "type": "Table"
+  },
+  {
+    "schema": "Sales",
     "name": "Sales",
     "type": "Schema"
   }
