@@ -1,0 +1,9 @@
+CREATE TABLE [Production].[Illustration] (
+    [IllustrationID] INT      NOT NULL,
+    [Diagram]        XML      NULL,
+    [ModifiedDate]   DATETIME NOT NULL
+);
+
+
+GO
+
